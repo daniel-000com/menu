@@ -1,0 +1,91 @@
+/* --- Estilos Generales y Fondo --- */
+body {
+    /* Fondo de la imagen fiondo.GIV (image_0.png) */
+    background-image: url('img.jog'); /* Ruta a la imagen */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
+    color: white; /* Color de texto por defecto */
+    
+    /* Fuente con estilo arcade (se puede cambiar por otra fuente pixelada) */
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor lectura */
+    
+    /* Centrar el contenido para un aspecto más limpio */
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    /* Efecto de borde tipo gabinete de arcade */
+    border: 5px solid #c34213; /* Dorado para el borde */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(190, 112, 24, 0.533); /* Resplandor dorado */
+}
+
+/* --- Títulos --- */
+h1 {
+    text-align: center;
+    color: #00FFFF; /* Color cian vibrante */
+    text-transform: uppercase;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #00FFFF;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #FFA500; /* Color naranja para títulos secundarios */
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 4px solid #FFA500;
+    padding-left: 10px;
+}
+
+/* El h2 dentro de un h1 (estructura original) se ajusta */
+h1 > h2 {
+    color: #FFA500; /* Mantenemos el naranja */
+    font-size: 1.2em;
+}
+
+h3 {
+    font-family: Arial, sans-serif; /* Texto del proyecto en fuente normal para lectura */
+    font-size: 1em;
+    line-height: 1.6;
+    color: #FFFAFA; /* Un blanco más suave */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto del proyecto */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* --- Enlaces (Links) --- */
+a {
+    color: #7FFF00; /* Color verde lima llamativo */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transición suave */
+}
+
+a:hover {
+    color: #FF00FF; /* Color magenta al pasar el mouse */
+}
+
+/* --- Imágenes --- */
+img {
+    border: 2px solid #FFD700; /* Borde para las imágenes de juego */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1); /* Ligera expansión al pasar el mouse */
+}
+
+/* --- Ajustes de Estilo de la Lista de Proyectos (Para un aspecto de 'Niveles' o 'Desafíos') --- */
+h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el html original) */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
+    border: 2px solid #808080; /* Borde gris metálico */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
