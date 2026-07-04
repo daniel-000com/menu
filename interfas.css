@@ -1,15 +1,15 @@
 /* --- Estilos Generales y Fondo --- */
 body {
     /* Fondo de la imagen fiondo.GIV (image_0.png) */
-    background-image: url('CC4202FE-438D-4ED7-B34E-50AE22E4ED9C.GIF'); /* Ruta a la imagen */
+    background-image: url('1CB127EE-4890-43F2-BC6C-127A94D1D749.GIF'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
     color: white; /* Color de texto por defecto */
     
     /* Fuente con estilo arcade (se puede cambiar por otra fuente pixelada) */
-    font-family: 'Press Start 2P', cursive;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para mejor lectura */
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85); /* Sombra para mejor lectura */
     
     /* Centrar el contenido para un aspecto más limpio */
     max-width: 900px;
@@ -17,9 +17,9 @@ body {
     padding: 20px;
     
     /* Efecto de borde tipo gabinete de arcade */
-    border: 5px solid #c34213; /* Dorado para el borde */
+    border: 5px solid #2d8fd0ec; /* Dorado para el borde */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(190, 112, 24, 0.533); /* Resplandor dorado */
+    box-shadow: 0 0 15px rgba(42, 10, 80, 0.674); /* Resplandor dorado */
 }
 
 /* --- Títulos --- */
@@ -53,7 +53,7 @@ h3 {
     font-size: 1em;
     line-height: 1.6;
     color: #FFFAFA; /* Un blanco más suave */
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para el texto del proyecto */
+    background-color: rgba(0, 0, 0, 0.643); /* Fondo oscuro para el texto del proyecto */
     padding: 15px;
     border-radius: 5px;
 }
@@ -72,7 +72,7 @@ a:hover {
 
 /* --- Imágenes --- */
 img {
-    border: 2px solid #FFD700; /* Borde para las imágenes de juego */
+    border: 2px solid #d000ff; /* Borde para las imágenes de juego */
     border-radius: 5px;
     transition: transform 0.3s ease;
 }
@@ -90,7 +90,7 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     margin-bottom: 40px;
 }
 .contenedor{
-    background-image:url("1F87D7BA-7D78-47E2-8497-602579C0EE35.GIF");
+    background-image:url("38D1D144-4495-4116-BC4F-ABDF3B1F6756.GIF");
     background-size:cover;
     background-position:center;
     
@@ -99,8 +99,8 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
 
     height: 1200px;
 
-    border:6px solid #2dc5d0ec;
-    box-shadow:0 12px 25px rgba(0, 147, 232, 0.461);
+    border:6px solid #942dd0ec;
+    box-shadow:0 12px 25px rgba(232, 0, 170, 0.461);
 
     border-radius:35px;
 
