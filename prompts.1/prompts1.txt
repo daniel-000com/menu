@@ -1,0 +1,5 @@
+prompts
+prompt.1
+   actua como diseñador.Crea un archivo CSS archivo interfas.css para darle un diseño más arcade y estético al archivo HTML 
+   y Pon una imagen de fondo, la imagen en cuestión será fondo.GIf Trata de no alterar mucho 
+   el html solamente utiliza la imagen de fondo en el html

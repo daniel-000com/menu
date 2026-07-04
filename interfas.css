@@ -1,7 +1,7 @@
 /* --- Estilos Generales y Fondo --- */
 body {
     /* Fondo de la imagen fiondo.GIV (image_0.png) */
-    background-image: url('img.jog'); /* Ruta a la imagen */
+    background-image: url('CC4202FE-438D-4ED7-B34E-50AE22E4ED9C.GIF'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
@@ -25,11 +25,11 @@ body {
 /* --- Títulos --- */
 h1 {
     text-align: center;
-    color: #00FFFF; /* Color cian vibrante */
+    color: #00aeff; /* Color cian vibrante */
     text-transform: uppercase;
     font-size: 1.8em;
     margin-bottom: 30px;
-    border-bottom: 2px dashed #00FFFF;
+    border-bottom: 2px dashed #00bfff;
     padding-bottom: 10px;
 }
 
@@ -88,4 +88,24 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 40px;
+}
+.contenedor{
+    background-image:url("1F87D7BA-7D78-47E2-8497-602579C0EE35.GIF");
+    background-size:cover;
+    background-position:center;
+    
+
+    width:(228, 232, 0, 0.461);
+
+    height: 1200px;
+
+    border:6px solid #2dc5d0ec;
+    box-shadow:0 12px 25px rgba(0, 147, 232, 0.461);
+
+    border-radius:35px;
+
+    padding:50px;
+
+   
+
 }
