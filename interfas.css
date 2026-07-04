@@ -1,7 +1,7 @@
 /* --- Estilos Generales y Fondo --- */
 body {
     /* Fondo de la imagen fiondo.GIV (image_0.png) */
-    background-image: url('1CB127EE-4890-43F2-BC6C-127A94D1D749.GIF'); /* Ruta a la imagen */
+    background-image: url('8713D373-CFF0-42DF-887F-FD03B3EECDBB.GIF'); /* Ruta a la imagen */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
@@ -12,12 +12,12 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.85); /* Sombra para mejor lectura */
     
     /* Centrar el contenido para un aspecto más limpio */
-    max-width: 900px;
+   
     margin: 20px auto;
     padding: 20px;
     
     /* Efecto de borde tipo gabinete de arcade */
-    border: 5px solid #2d8fd0ec; /* Dorado para el borde */
+    border: 5px solid #52b1f0ec; /* Dorado para el borde */
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(42, 10, 80, 0.674); /* Resplandor dorado */
 }
@@ -95,7 +95,9 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     background-position:center;
     
 
-    width:(228, 232, 0, 0.461);
+    width: 1200px;
+    max-width: 1000px;
+    margin: 40px auto;
 
     height: 1200px;
 
@@ -107,5 +109,33 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     padding:50px;
 
    
+
+}
+.logo{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:40px;
+
+}
+
+.logo img{
+
+    width:290px;
+
+    height:auto;
+    border:none;
+
+    transition:.3s;
+
+    filter:drop-shadow(0 8px 15px rgba(252, 249, 249, 0.147));
+
+}
+
+.logo img:hover{
+
+    transform:scale(1.05);
 
 }
