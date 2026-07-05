@@ -13,13 +13,13 @@ body {
     
     /* Centrar el contenido para un aspecto más limpio */
    
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 20px;
     
     /* Efecto de borde tipo gabinete de arcade */
-    border: 5px solid #52b1f0ec; /* Dorado para el borde */
+    border: 15px solid #002c49ec; /* Dorado para el borde */
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(42, 10, 80, 0.674); /* Resplandor dorado */
+    box-shadow: 10px 10px 15px rgba(42, 20, 80, 80.674); /* Resplandor dorado */
 }
 
 /* --- Títulos --- */
@@ -95,8 +95,8 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     background-position:center;
     flex:1;
 
-    width: 1600px;
-    max-width: 1100px;
+    width: 2000px;
+    max-width: 2000px;
     margin: auto;
 
     height: 1500px;
@@ -146,8 +146,8 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
 .layout{
     display:flex;
     gap:35px;
-    width:1700px;
-    max-width:100%;
+    width:1500px;
+    max-width:1500%;
     margin: auto;
     align-items:flex-start;
 }
@@ -227,5 +227,26 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     transform:translateX(10px);
 
     box-shadow:0 0 15px #00aeff;
+
+}
+
+.logo-prin{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:55px;
+
+}
+
+.logo-prin img{
+
+    width:290px;
+
+    border:none;
+
+    filter:drop-shadow(0 0 12px #00c8ff00);
+    
 
 }
