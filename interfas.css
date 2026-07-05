@@ -14,10 +14,10 @@ body {
     /* Centrar el contenido para un aspecto más limpio */
    
     margin: 0px auto;
-    padding: 20px;
+    padding: 10px;
     
     /* Efecto de borde tipo gabinete de arcade */
-    border: 15px solid #002c49ec; /* Dorado para el borde */
+    border: 15px solid #0d415bec; /* Dorado para el borde */
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(42, 20, 80, 80.674); /* Resplandor dorado */
 }
@@ -71,15 +71,26 @@ a:hover {
 }
 
 /* --- Imágenes --- */
-img {
+.contenedor img {
     border: 2px solid #d000ff; /* Borde para las imágenes de juego */
     border-radius: 5px;
-    transition: transform 0.3s ease;
+    transition: transform .3s ease;
 }
 
 img:hover {
-    transform: scale(1.1); /* Ligera expansión al pasar el mouse */
+    transform: scale(1.05)translateX(7px); /* Ligera expansión al pasar el mouse */
+    background:#b551ef;
+
+    box-shadow:0 0 25px #bf60f7;
+    
+
+    padding:0px 4px ; 
+
+    border-radius:5px;
+    
+    
 }
+
 
 /* --- Ajustes de Estilo de la Lista de Proyectos (Para un aspecto de 'Niveles' o 'Desafíos') --- */
 h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el html original) */
@@ -107,38 +118,13 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     border-radius:35px;
 
     padding:50px;
+    
+    
 
    
 
 }
-.logo{
 
-    display:flex;
-
-    justify-content:center;
-
-    margin-bottom:40px;
-
-}
-
-.logo img{
-
-    width:290px;
-
-    height:auto;
-    border:none;
-
-    transition:.3s;
-
-    filter:drop-shadow(0 8px 15px rgba(252, 249, 249, 0.147));
-
-}
-
-.logo img:hover{
-
-    transform:scale(1.05);
-
-}
 /* ========================= */
 /* LAYOUT */
 /* ========================= */
@@ -160,7 +146,7 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
 
     background:rgba(10,10,25,.90);
 
-    border:3px solid #9d00ff;
+    border:3px solid #8203d2;
 
     border-radius:25px;
 
@@ -176,6 +162,9 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     justify-content:center;
 
     margin-bottom:35px;
+    background: transparent;
+
+   box-shadow:0 0 25px #c060f700;
 
 }
 
@@ -186,6 +175,10 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     border:none;
 
     filter:drop-shadow(0 0 12px #00c8ff);
+    background: transparent;
+
+   box-shadow:0 0 25px #c060f700;
+   transition:.30s;
 
 }
 .sidebar nav{
@@ -237,7 +230,7 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     justify-content:center;
 
     margin-bottom:55px;
-
+ background: transparent;
 }
 
 .logo-prin img{
@@ -247,6 +240,12 @@ h1:not(:first-child) { /* Estilo para los bloques de proyecto (que son h1 en el 
     border:none;
 
     filter:drop-shadow(0 0 12px #00c8ff00);
-    
+    background: transparent;
+box-shadow:0 0 25px #c060f700;
+}
+.logo-prin img :xr-overlay{
 
+    background: transparent;
+
+   box-shadow:0 0 25px #c060f700;
 }
